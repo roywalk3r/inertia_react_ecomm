@@ -1,0 +1,10 @@
+import { SVGAttributes } from 'react';
+
+export default function ApplicationLogo(props: SVGAttributes<SVGElement>) {
+    return (
+        <div className="flex  gap-2 self-start text-2xl font-bold leading-8 text-black whitespace-nowrap">
+        <svg width="95" height="30" viewBox="0 0 95 94"  className="h-auto  shrink-0 my-auto w-5 aspect-square"  fill="rgb(249 115 22)" xmlns="http://www.w3.org/2000/svg"><path d="M96 0V47L48 94H0V47L48 0H96Z"></path></svg>
+    <div > AERK</div>
+    </div>
+    );
+}
